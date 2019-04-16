@@ -4,7 +4,7 @@ import Header from "../components/header"
 
 export default () => (
   <Layout>
-    <div style={{ color: "teal" }}>
+    <div>
       <Header headerText="Über uns" />
       <p>Wär bisch du?</p>
     </div>

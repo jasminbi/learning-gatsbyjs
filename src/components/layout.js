@@ -1,5 +1,7 @@
 import React from "react"
+import { css } from "@emotion/core"
 import { Link } from "gatsby"
+import { rhythm } from "../utils/typography"
 import logo from "../img/logo_blue.png"
 
 const ListLink = props => (
@@ -48,12 +50,12 @@ export default ({ children }) => (
         position: `static`,
       }}
     >
-      <img src={logo} alt="menon" style={{ height: `3em`, padding: `20px` }} />
-      <p>
+      <img src={logo} alt="menon" style={{ height: `4em`, padding: `20px` }} />
+      <ul style={{ listStyle: `none`, padding: `0`, textShadow: `none` }}>
         <ListLink to="/">Home</ListLink>
         <ListLink to="/about/">Über uns</ListLink>
         <ListLink to="/contact/">Kontakt</ListLink>
-      </p>
+      </ul>
     </footer>
   </div>
 )

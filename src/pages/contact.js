@@ -3,7 +3,7 @@ import Layout from "../components/layout"
 
 export default () => (
   <Layout>
-    <div style={{ color: "teal" }}>
+    <div>
       <h1>Kontakt</h1>
       <p>Kontaktdaten gibts hier</p>
     </div>

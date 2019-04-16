@@ -1,11 +1,11 @@
 import React from "react"
 import Layout from "../components/layout"
-import Header from "../components/header"
 import schoolkids from "../img/schoolkids.jpg"
+import Header from "../components/header"
 
 export default () => (
   <Layout>
-    <div style={{ color: "purple" }}>
+    <div>
       <Header headerText="Hello Menon Test Site" />
       <p>What a world.</p>
       <img src={schoolkids} alt="schoolkids" style={{ width: `50%` }} />
