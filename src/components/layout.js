@@ -7,12 +7,19 @@ const ListLink = props => (
 )
 
 export default ({ children }) => (
-  <div style={{ margin: `3rem auto`, maxWidth: 650, padding: `0 1rem` }}>
-    <header style={{ marginBottom: `1.5rem` }}>
-      <Link to="/">
-        <h3 style={{ display: `inline`, float: `right` }}>Menon</h3>
+  <div style={{ margin: `3rem auto`, padding: `0 4rem` }}>
+    <header style={{ marginBottom: `4rem` }}>
+      <Link
+        to="/"
+        style={{ textShadow: `none`, backgroundImage: `none`, float: `right` }}
+      >
+        <img
+          src="https://menon.education/icons/menon/m.png"
+          height="40"
+          alt="menon"
+        />
       </Link>
-      <ul style={{ listStyle: `none` }}>
+      <ul style={{ listStyle: `none`, padding: `0` }}>
         <ListLink to="/">Home</ListLink>
         <ListLink to="/about/">Über uns</ListLink>
         <ListLink to="/contact/">Kontakt</ListLink>
