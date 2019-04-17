@@ -1,7 +1,5 @@
 import React from "react"
-import { css } from "@emotion/core"
 import { Link } from "gatsby"
-import { rhythm } from "../utils/typography"
 import logo from "../img/logo_blue.png"
 
 const ListLink = props => (
