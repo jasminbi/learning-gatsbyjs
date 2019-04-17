@@ -48,6 +48,7 @@ export default ({ children }) => (
             <ListLink to="/">Home</ListLink>
             <ListLink to="/about/">Über uns</ListLink>
             <ListLink to="/contact/">Kontakt</ListLink>
+            <ListLink to="/blog/">Blog</ListLink>
           </ul>
         </header>
         <div style={{ margin: `3rem auto`, padding: `0 4rem` }}>{children}</div>
@@ -72,6 +73,7 @@ export default ({ children }) => (
             <ListLink to="/">Home</ListLink>
             <ListLink to="/about/">Über uns</ListLink>
             <ListLink to="/contact/">Kontakt</ListLink>
+            <ListLink to="/blog/">Blog</ListLink>
           </ul>
           <p>{data.site.siteMetadata.title}</p>
         </footer>
